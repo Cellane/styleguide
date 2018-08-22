@@ -188,7 +188,7 @@ You should call this function from `configure.swift` like this:
     services.register(commandsConfig)
 ```
 
-> If your app doesn't use custom `Command`s you can ommit this file.
+> If your app doesn't use custom `Command`s you can omit this file.
 
 ### content.swift
 
@@ -218,7 +218,7 @@ You should call this function from `configure.swift` like this:
     services.register(contentConfig)
 ```
 
-> If you don't customize the content configuration you can ommit this file.
+> If you don't customize the content configuration you can omit this file.
 
 ### databases.swift
 
@@ -251,7 +251,7 @@ And then call this function from `configure.swift` like this:
     services.register(databasesConfig)
 ```
 
-> If your app doesn't use `Fluent` you can ommit this file.
+> If your app doesn't use `Fluent` you can omit this file.
 
 ### middlewares.swift
 
@@ -301,7 +301,7 @@ And then call this function from `configure.swift` like this:
 
 As you continue to add models to your application, make sure that you add them to the migration file as well.
 
-> If your app doesn't use `Fluent` you can ommit this file.
+> If your app doesn't use `Fluent` you can omit this file.
 
 ### repositories.swift
 
@@ -331,7 +331,7 @@ setupRepositories(services: &services, config: &config)
 
 For more information on the repository pattern, see the “Architecture” section.
 
-> If your app doesn't use `Fluent` you can ommit this file.
+> If your app doesn't use `Fluent` you can omit this file.
 
 # Credentials
 
